@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "262168386993",
+    "project_id": "fir-attendencedb",
+    "storage_bucket": "fir-attendencedb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262168386993:android:1d48a22ad2ca5e8bdcf190",
+        "android_client_info": {
+          "package_name": "com.ajay.attendenceapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262168386993-a63e3egv7d0cu117q22b2s6isa31kvpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkaMEFDHNehURqLvzd8bms4GxAxsx7bdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262168386993-a63e3egv7d0cu117q22b2s6isa31kvpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

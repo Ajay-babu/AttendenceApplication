@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataSubmitActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        >
+        <ImageView
+            android:id="@+id/id_image"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_add"
+
+            />
+
+            <EditText
+                android:id="@+id/edt_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Joining Date"
+                android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edt_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student full name"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/edt_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile no"/>
+
+
+        <EditText
+            android:id="@+id/edt_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/edt_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Highest Education"/>
+
+        <EditText
+            android:id="@+id/edt_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Communication Address"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Data"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
