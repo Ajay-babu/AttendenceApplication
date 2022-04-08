@@ -1,6 +1,7 @@
 package com.ajay.attendenceapplication.InsertDataInFirebase;
 
 public class InfoStudentClass {
+    private String image;
     private String joiningDate;
     private String fullName;
     private String mobileNo;
@@ -8,6 +9,14 @@ public class InfoStudentClass {
     private String highestEdu;
     private String commuAddress;
     private String key;
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 
     public String getJoiningDate() {
         return joiningDate;

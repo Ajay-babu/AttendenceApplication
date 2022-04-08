@@ -8,9 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.ajay.attendenceapplication.databinding.Fragment1Binding;
+import com.ajay.attendenceapplication.databinding.FragmentLoginBinding;
+
 
 public class LoginFragment extends Fragment {
-
+    private FragmentLoginBinding loginBinding;
 
 
 
@@ -22,9 +25,8 @@ public class LoginFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+
         return inflater.inflate(R.layout.fragment_login, container, false);
     }
 }

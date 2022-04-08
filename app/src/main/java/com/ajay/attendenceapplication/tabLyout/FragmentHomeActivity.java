@@ -8,8 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.ajay.attendenceapplication.Adapter.ViewPageAdapter;
-import com.ajay.attendenceapplication.DataSubmitActivity;
-import com.ajay.attendenceapplication.R;
+import com.ajay.attendenceapplication.InsertDataInFirebase.DataSubmitActivity;
 import com.ajay.attendenceapplication.databinding.ActivityFragmentHomeBinding;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
